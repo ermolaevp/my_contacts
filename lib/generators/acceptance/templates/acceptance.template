@@ -1,0 +1,98 @@
+# frozen_string_literal: true
+
+require 'rails_helper'
+require 'rspec_api_documentation/dsl'
+
+resource '<%= class_name %>' do
+  explanation '<%= class_name %> resource'
+  authentication :apiKey, :api_key, description: 'Private key for API access', name: 'Authorization'
+  header 'Content-Type', 'application/json'
+  header 'Accept', 'application/json'
+  let(:user) { users(:one) }
+  let(:api_key) { TestApiTokenHelper.api_token_for(user) }
+  let(:<%= plural_name.singularize %>) { <%= plural_name %>(:one) }
+  let(:valid_attributes) do
+    {
+      some: 'attribute'
+    }
+  end
+
+  get '/<%= plural_name %>' do
+    route_summary 'Get <%= plural_name %>'
+    context 'when 200' do
+      example 'Get <%= plural_name %>' do
+        do_request
+        expected_response = <%= class_name.singularize %>.count
+        expect(status).to eq(200)
+        expect(JSON.parse(response_body).size).to eq(expected_response)
+      end
+    end
+  end
+
+  post '/<%= plural_name %>' do
+    route_summary 'Create <%= plural_name.singularize %>'
+    context 'when 201' do
+
+      with_options scope: :<%= plural_name.singularize %>, required: true do
+        parameter :some, 'Description', requred: true
+      end
+
+      example 'Create <%= plural_name.singularize %>' do
+        do_request(valid_attributes)
+        expected_response = <%= class_name.singularize %>.last.serialize
+        expect(status).to eq(201)
+        expect(response_body).to eq(expected_response)
+      end
+    end
+  end
+
+  get '/<%= plural_name %>/:id' do
+    route_summary 'Get <%= plural_name.singularize %>'
+    context 'when 200' do
+      let(:id) { <%= plural_name.singularize %>.to_param }
+
+      example 'Get <%= plural_name.singularize %>' do
+        do_request
+        expected_response = <%= plural_name.singularize %>.serialize
+        expect(status).to eq(200)
+        expect(response_body).to eq(expected_response)
+      end
+    end
+  end
+
+  put '/<%= plural_name %>/:id' do
+    route_summary 'Update <%= plural_name.singularize %>'
+    context 'when 200' do
+      let(:id) { <%= plural_name.singularize %>.to_param }
+      let(:new_attributes) do
+        {
+          <%= plural_name.singularize %>: {
+            some: 'new attribute'
+          }
+        }
+      end
+
+      with_options scope: :<%= plural_name.singularize %>, required: true do
+        parameter :some, 'Description', requred: true
+      end
+
+      example 'Update <%= plural_name.singularize %>' do
+        do_request(new_attributes)
+        expect(status).to eq(200)
+        expect(response_body).to match(/new attribute/)
+      end
+    end
+  end
+
+  delete '/<%= plural_name %>/:id' do
+    route_summary 'Delete <%= plural_name.singularize %>'
+    context 'when 204' do
+      let(:id) { <%= plural_name.singularize %>.to_param }
+
+      example 'Delete <%= plural_name.singularize %>' do
+        do_request
+        expect(status).to eq(204)
+      end
+    end
+  end
+end

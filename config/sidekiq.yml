@@ -1,0 +1,7 @@
+:concurrency: 1
+:queues:
+  - default
+  - mailers
+
+  - my_contacts_default
+  - my_contacts_mailers

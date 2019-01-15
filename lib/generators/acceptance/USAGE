@@ -1,0 +1,8 @@
+Description:
+    Generates acceptance test for a given resource
+
+Example:
+    rails generate acceptance Thing
+
+    This will create:
+        spec/acceptance/resource_spec.rb

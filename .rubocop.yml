@@ -1,0 +1,22 @@
+inherit_from: .rubocop_todo.yml
+
+require: rubocop-rspec
+
+Rails:
+  Enabled: true
+
+AllCops:
+  TargetRubyVersion: 2.5.3
+  Exclude:
+    - 'Gemfile'
+    - 'Guardfile'
+    - 'Rakefile'
+    - 'config.ru'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+    # - 'spec/**/*'
+    # - 'app/**/*'
+    # - 'lib/**/*'
