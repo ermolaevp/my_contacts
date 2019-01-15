@@ -48,7 +48,7 @@ module MyContacts
       g.test_framework :rspec
     end
 
-    my_contacts_host = ENV.fetch('HOST') { 'localhost'}
+    my_contacts_host = ENV.fetch('DEFAULT_HOST') { 'localhost'}
     my_contacts_port = ENV.fetch('PORT') { 3000 }
 
     config.action_mailer.default_url_options = {
