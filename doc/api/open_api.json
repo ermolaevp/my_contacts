@@ -15,7 +15,7 @@
     },
     "version": "1.0.0"
   },
-  "host": "<%= ENV.fetch('HOST', 'localhost:3000') %>",
+  "host": "<%= ENV.fetch('DEFAULT_HOST', 'localhost:3000') %>",
   "schemes": [
     "http"
   ],
@@ -102,7 +102,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.071936"
+                "x-example-value": "0.081302"
               }
             },
             "examples": {
@@ -193,7 +193,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.060356"
+                "x-example-value": "0.058824"
               }
             },
             "examples": {
@@ -259,7 +259,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.024306"
+                "x-example-value": "0.031881"
               }
             },
             "examples": {
@@ -355,7 +355,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.023344"
+                "x-example-value": "0.025426"
               }
             },
             "examples": {
@@ -419,7 +419,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.023295"
+                "x-example-value": "0.025806"
               }
             }
           }
@@ -469,7 +469,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.017106"
+                "x-example-value": "0.016182"
               }
             },
             "examples": {
@@ -553,17 +553,17 @@
               "Authorization": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc1ODE0MTgsImV4cCI6MTU0NzU4NTAxOH0.VQYJuDXWeQ_luv7kJqsrNX4DaVqLqWHfv-qkmRJ8zP0"
+                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc1ODQ3MTAsImV4cCI6MTU0NzU4ODMxMH0.E3BvJM5uw7mOj_sGst3KS15WYgieRsMQN1ZC1MmH1yU"
               },
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.022470"
+                "x-example-value": "0.021541"
               }
             },
             "examples": {
               "application/json": {
-                "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc1ODE0MTgsImV4cCI6MTU0NzU4NTAxOH0.VQYJuDXWeQ_luv7kJqsrNX4DaVqLqWHfv-qkmRJ8zP0"
+                "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc1ODQ3MTAsImV4cCI6MTU0NzU4ODMxMH0.E3BvJM5uw7mOj_sGst3KS15WYgieRsMQN1ZC1MmH1yU"
               }
             }
           }
@@ -638,7 +638,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.349828"
+                "x-example-value": "0.377384"
               }
             },
             "examples": {
