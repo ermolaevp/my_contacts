@@ -103,7 +103,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.095404"
+                "x-example-value": "0.071701"
               }
             },
             "examples": {
@@ -194,7 +194,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.057642"
+                "x-example-value": "0.056304"
               }
             },
             "examples": {
@@ -260,7 +260,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.024629"
+                "x-example-value": "0.024263"
               }
             },
             "examples": {
@@ -356,7 +356,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.023164"
+                "x-example-value": "0.023198"
               }
             },
             "examples": {
@@ -420,7 +420,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.023478"
+                "x-example-value": "0.023746"
               }
             }
           }
@@ -470,7 +470,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.019325"
+                "x-example-value": "0.019374"
               }
             },
             "examples": {
@@ -554,17 +554,17 @@
               "Authorization": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc2MzQwMjksImV4cCI6MTU0NzYzNzYyOX0.BNxhnIfbD0BJr6Q7zvXZ-AjCkuoikUtI2CfxKN3Nscc"
+                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc3NDU4NTAsImV4cCI6MTU0Nzc0OTQ1MH0.KxoR6KeGXmpBkKETjKjuvY3a6DcwOKsg1x_q_wrZIXo"
               },
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.026604"
+                "x-example-value": "0.024585"
               }
             },
             "examples": {
               "application/json": {
-                "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc2MzQwMjksImV4cCI6MTU0NzYzNzYyOX0.BNxhnIfbD0BJr6Q7zvXZ-AjCkuoikUtI2CfxKN3Nscc"
+                "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc3NDU4NTAsImV4cCI6MTU0Nzc0OTQ1MH0.KxoR6KeGXmpBkKETjKjuvY3a6DcwOKsg1x_q_wrZIXo"
               }
             }
           }
@@ -636,10 +636,15 @@
               }
             },
             "headers": {
+              "Authorization": {
+                "description": "",
+                "type": "string",
+                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmMTZjNzE0OS1lZjVjLTQ5MTgtYWE5Mi04Mjg2OGVhN2JmYTEiLCJpZCI6OTgwMTkwOTYzLCJzdWIiOiI5ODAxOTA5NjMiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc3NDU4NTAsImV4cCI6MTU0Nzc0OTQ1MH0.2MXLx6dOSDJsLivUuO9pUcvaUD26sFD0YXFR8ZU61Og"
+              },
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.405280"
+                "x-example-value": "0.044628"
               }
             },
             "examples": {
