@@ -19,7 +19,6 @@
 #  index_contacts_on_user_id_and_number  (user_id,number) UNIQUE
 #
 
-
 class ContactSerializer < ActiveModel::Serializer
   attributes :id, :name, :number, :email, :active
 end

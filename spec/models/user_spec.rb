@@ -37,7 +37,6 @@
 #  index_users_on_unlock_token          (unlock_token) UNIQUE
 #
 
-
 require 'rails_helper'
 
 RSpec.describe User, type: :model do

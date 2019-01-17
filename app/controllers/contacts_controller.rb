@@ -50,7 +50,7 @@ class ContactsController < ApplicationController
   end
 
   def q_to_hash
-    if params[:q].kind_of? String
+    if params[:q].is_a? String
       Hash[*params[:q].split(',')]
     else
       params[:q]

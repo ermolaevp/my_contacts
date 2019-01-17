@@ -8,7 +8,6 @@
 #  user_id :bigint(8)        not null
 #
 
-
 class RolesUser < ApplicationRecord
   belongs_to :user
   belongs_to :role

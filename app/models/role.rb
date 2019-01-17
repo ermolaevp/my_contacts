@@ -9,7 +9,6 @@
 #  name        :string           not null
 #
 
-
 class Role < ApplicationRecord
   before_save :downcase_name
 
