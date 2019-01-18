@@ -17,8 +17,8 @@
   },
   "host": "<%= ENV.fetch('DEFAULT_HOST', 'localhost:3000') %>",
   "schemes": [
-    "http",
-    "https"
+    "https",
+    "http"
   ],
   "consumes": [
     "application/json"
@@ -103,7 +103,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.071701"
+                "x-example-value": "0.104356"
               }
             },
             "examples": {
@@ -194,7 +194,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.056304"
+                "x-example-value": "0.058632"
               }
             },
             "examples": {
@@ -260,7 +260,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.024263"
+                "x-example-value": "0.023618"
               }
             },
             "examples": {
@@ -356,7 +356,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.023198"
+                "x-example-value": "0.024331"
               }
             },
             "examples": {
@@ -420,7 +420,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.023746"
+                "x-example-value": "0.023988"
               }
             }
           }
@@ -470,7 +470,7 @@
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.019374"
+                "x-example-value": "0.018096"
               }
             },
             "examples": {
@@ -554,17 +554,17 @@
               "Authorization": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc3NDU4NTAsImV4cCI6MTU0Nzc0OTQ1MH0.KxoR6KeGXmpBkKETjKjuvY3a6DcwOKsg1x_q_wrZIXo"
+                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc4MjUxNTMsImV4cCI6MTU0NzgyODc1M30.eGrckvAu-H-0Q8NmjjZ-MTkPOZukFenLrbbxHjZiDTs"
               },
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.024585"
+                "x-example-value": "0.024717"
               }
             },
             "examples": {
               "application/json": {
-                "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc3NDU4NTAsImV4cCI6MTU0Nzc0OTQ1MH0.KxoR6KeGXmpBkKETjKjuvY3a6DcwOKsg1x_q_wrZIXo"
+                "token": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJ0b2tlbjAiLCJpZCI6OTgwMTkwOTYyLCJzdWIiOiI5ODAxOTA5NjIiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc4MjUxNTMsImV4cCI6MTU0NzgyODc1M30.eGrckvAu-H-0Q8NmjjZ-MTkPOZukFenLrbbxHjZiDTs"
               }
             }
           }
@@ -639,12 +639,12 @@
               "Authorization": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmMTZjNzE0OS1lZjVjLTQ5MTgtYWE5Mi04Mjg2OGVhN2JmYTEiLCJpZCI6OTgwMTkwOTYzLCJzdWIiOiI5ODAxOTA5NjMiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc3NDU4NTAsImV4cCI6MTU0Nzc0OTQ1MH0.2MXLx6dOSDJsLivUuO9pUcvaUD26sFD0YXFR8ZU61Og"
+                "x-example-value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJmNjVmNDA1Zi0xMDYzLTRhZmYtYTk2ZS05ODcyMWEzMDg4YTYiLCJpZCI6OTgwMTkwOTYzLCJzdWIiOiI5ODAxOTA5NjMiLCJzY3AiOiJ1c2VyIiwiYXVkIjpudWxsLCJpYXQiOjE1NDc4MjUxNTMsImV4cCI6MTU0NzgyODc1M30.jqueW6utuK8UvdmP5eU1P_fgnacIr4fGTKygvwMCsgA"
               },
               "X-Runtime": {
                 "description": "",
                 "type": "string",
-                "x-example-value": "0.044628"
+                "x-example-value": "0.046007"
               }
             },
             "examples": {

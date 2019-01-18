@@ -18,8 +18,8 @@ securityDefinitions:
     name: Authorization
     in: header
 schemes:
-  - http
   - https
+  - http
 consumes:
   - application/json
 produces:
