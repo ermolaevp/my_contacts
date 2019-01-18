@@ -1,1 +1,3 @@
-[![Coverage report](https://gitlab.com/gitlab-org/gitlab-ce/badges/master/coverage.svg?job=coverage)](http://ermolaevp.gitlab.io/my_contacts)
+[![Coverage report](./coverage.svg)](https://ermolaevp.github.io/my-contacts/)
+
+My contacts server
