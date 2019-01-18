@@ -1,7 +1,7 @@
 swagger: "2.0"
 info:
   title: MyContacts Api
-  description: This is a sample server.
+  description: Open API 2.0 specification
   termsOfService: "http://open-api.io/terms/"
   contact:
     name: API Support
