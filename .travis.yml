@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.5.3
+deploy:
+  provider: heroku
+  api_key:
+    secure: j0XzDeLt+/p5Cm94nYIdvlV8eFe4mgoza/xCoFFldVgv6Yck0m/WGHLTdaGykutY1xMUYlBM61Ur1x1a2oPihg1P/BKx6PzYirOBpKNLOKWkBtMCtOBRkRWu/Wydyr4U46q1nqrtBhs1R3FTPYCVkIcoMX3cS1lD/wg3GA3tEkqkZFZDVUXPv6VJDPYzXow9rw3VRFddVBoYsTo0GHQGQKDbo2uJNMHbj5QRcW+aI+VJWpg4Ny7B5W9HoNYQRSzxw26bYOIYHo1aGU9MXM6QwFt+lFIbQgXlS8xMPr7fYw4FCYDuv2xyI8nrjmH6hfybM1/KIgt0XTyem8NkvKliRjUnyZOt2SIuehyc24823OFnLfB4P+ti2hFTqYsbsuBLaTdmF+nPFJ/g9ngLhyVVtWGQDc3LfKtx2zUoEzWdwApz6R7WlhLp3P+UAXV0486l2yWwfpiwqG77anhahr57sZc9k2AMPDM54Pd2hX8nwud80+LL7/U6oNbnKCkbqUJHvqVYuoosL/o5zy0RuIHY/cmmBpIe/YCWMActW2VrN3PC80rujQlth/+G0wtqhLt1hRj0dmbYQZMaH/Wxst4eyYmPRNiJZXQv2ZPzDHUIVgWEPwWMzJq0XxnYZO6Gg6CeN2J7ZgLYOjhLVbxVFI6juM+vHvT4FfRKzn4jYaiq4/E=
+  app: enigmatic-taiga-18280
+  on:
+    repo: ermolaevp/my-contacts

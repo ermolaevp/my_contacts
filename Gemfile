@@ -38,6 +38,7 @@ group :development, :test do
   gem "rspec-rails", "~> 3.8"
   gem "simplecov", "~> 0.16.1"
   gem "rspec_api_documentation", "~> 6.1"
+  gem "coveralls", "~> 0.7.1", require: false
 end
 
 group :development do
