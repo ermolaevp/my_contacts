@@ -57,7 +57,7 @@ group :production do
   gem "sentry-raven", "~> 2.7"
 end
 
-gem "devise", "~> 4.5"
+gem "devise", "~> 4.6"
 
 gem "active_model_serializers", "~> 0.10.7"
 
