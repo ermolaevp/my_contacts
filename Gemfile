@@ -91,7 +91,7 @@ gem "capistrano-rvm", "~> 0.1.2"
 
 gem "paginate-responder", "~> 1.7"
 
-gem "kaminari", "~> 1.1"
+gem "kaminari", "~> 1.2"
 
 gem "ransack", "~> 2.0"
 
